@@ -1,0 +1,120 @@
+{
+  "users": [
+    {
+      "userId": "1",
+      "username": "soumik",
+      "previewUrl": "https://picsum.photos/id/1/100/100",
+      "stories": [
+        {
+          "id": "story1",
+          "url": "https://picsum.photos/id/10/400/600"
+        },
+        {
+          "id": "story2",
+          "url": "https://picsum.photos/id/11/400/600"
+        }
+      ]
+    },
+    {
+      "userId": "2",
+      "username": "alex",
+      "previewUrl": "https://picsum.photos/id/2/100/100",
+      "stories": [
+        {
+          "id": "story3",
+          "url": "https://picsum.photos/id/12/400/600"
+        }
+      ]
+    },
+    {
+      "userId": "3",
+      "username": "emma",
+      "previewUrl": "https://picsum.photos/id/3/100/100",
+      "stories": [
+        {
+          "id": "story4",
+          "url": "https://picsum.photos/id/13/400/600"
+        },
+        {
+          "id": "story5",
+          "url": "https://picsum.photos/id/14/400/600"
+        },
+        {
+          "id": "story6",
+          "url": "https://picsum.photos/id/15/400/600"
+        }
+      ]
+    },
+    {
+      "userId": "4",
+      "username": "john",
+      "previewUrl": "https://picsum.photos/id/4/100/100",
+      "stories": [
+        {
+          "id": "story7",
+          "url": "https://picsum.photos/id/16/400/600"
+        }
+      ]
+    },
+    {
+      "userId": "5",
+      "username": "sarah",
+      "previewUrl": "https://picsum.photos/id/5/100/100",
+      "stories": [
+        {
+          "id": "story8",
+          "url": "https://picsum.photos/id/17/400/600"
+        },
+        {
+          "id": "story9",
+          "url": "https://picsum.photos/id/18/400/600"
+        }
+      ]
+    },
+    {
+      "userId": "6",
+      "username": "smudha",
+      "previewUrl": "https://picsum.photos/id/5/100/100",
+      "stories": [
+        {
+          "id": "story8",
+          "url": "https://picsum.photos/id/29/400/600"
+        },
+        {
+          "id": "story9",
+          "url": "https://picsum.photos/id/87/400/600"
+        }
+      ]
+    },
+    {
+      "userId": "7",
+      "username": "railey",
+      "previewUrl": "https://picsum.photos/id/5/100/100",
+      "stories": [
+        {
+          "id": "story8",
+          "url": "https://picsum.photos/id/98/400/600"
+        },
+        {
+          "id": "story9",
+          "url": "https://picsum.photos/id/18/400/600"
+        }
+      ]
+    },
+    {
+      "userId": "8",
+      "username": "hay storm",
+      "previewUrl": "https://picsum.photos/id/5/100/100",
+      "stories": [
+        {
+          "id": "story8",
+          "url": "https://picsum.photos/id/17/400/600"
+        },
+        {
+          "id": "story9",
+          "url": "https://picsum.photos/id/18/400/600"
+        }
+      ]
+    }
+  ]
+}
