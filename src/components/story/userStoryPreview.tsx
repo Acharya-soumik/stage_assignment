@@ -9,13 +9,13 @@ const UserStoryPreview = ({ users, setActiveStory }: Props) => {
   return (
     <div
       data-testid="story-list"
-      className="flex gap-4 overflow-x-auto px-4 py-4 scrollbar-hide"
+      className="flex gap-4 overflow-x-auto px-4 py-4 scrollbar-hide snap-x shadow-md"
     >
       {users.map((user, idx) => (
         <div
           data-testid="story-item"
           key={user.userId}
-          className="flex flex-col items-center gap-1 cursor-pointer"
+          className="flex flex-col items-center gap-1 cursor-pointer snap-end"
           onClick={() => setActiveStory(user, idx)}
         >
           <div className="w-16 h-16 rounded-full ring-2 ring-fuchsia-400 p-1">

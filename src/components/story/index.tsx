@@ -75,25 +75,27 @@ const Story = ({
           />
         ))}
       </div>
-      <img
-        className={`w-full h-full object-contain ${
-          loading ? "hidden" : "bg-gradient-to-r"
-        }`}
-        src={activeUser?.stories[currentStoryIndex]?.url}
-        onLoad={() => setLoading(false)}
-        alt={`Story ${currentStoryIndex + 1}`}
-      />
-      <div
-        className={`absolute inset-0 flex items-center justify-center z-20 ${
-          loading ? "" : "hidden"
-        }`}
-      >
-        <div className="w-8 h-8 border-4 border-gray-400 border-t-transparent rounded-full animate-spin"></div>
+      <div className="relative w-full h-full">
+        <img
+          className={`w-full h-full object-cover transition-opacity duration-300 ease-in ${
+            loading ? "opacity-0" : "opacity-100"
+          }`}
+          src={activeUser?.stories[currentStoryIndex]?.url}
+          onLoad={() => setLoading(false)}
+          alt={`Story ${currentStoryIndex + 1}`}
+        />
+        <div
+          className={`absolute inset-0 flex items-center justify-center z-10 ${
+            loading ? "opacity-100" : "opacity-0"
+          } transition-opacity duration-300`}
+        >
+          <div className="w-8 h-8 border-4 border-slate-300 border-t-black rounded-full animate-spin"></div>
+        </div>
       </div>
 
       <button
         onClick={onClose}
-        className="absolute top-0 right-0 p-4 text-white z-20"
+        className="absolute top-0 right-0 p-4 text-white z-30 pt-8 text-2xl"
       >
         x
       </button>
@@ -105,7 +107,7 @@ const Story = ({
         />
         <p className="text-white pl-2">{activeUser.username}</p>
       </div>
-      <div className="absolute w-full h-full inset-0 flex">
+      <div className="absolute w-full h-full inset-0 flex z-20">
         <div id="left_handler" onClick={handlePrev} className="flex-1"></div>
         <div id="right_handler" onClick={handleNext} className="flex-1"></div>
       </div>
