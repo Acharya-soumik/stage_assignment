@@ -1,0 +1,154 @@
+{
+  "users": [
+    {
+      "userId": "1",
+      "username": "soumik",
+      "previewUrl": "https://picsum.photos/id/231/100/100",
+      "stories": [
+        {
+          "id": "story1",
+          "url": "https://picsum.photos/id/456/400/600"
+        },
+        {
+          "id": "story2",
+          "url": "https://picsum.photos/id/789/400/600"
+        }
+      ]
+    },
+    {
+      "userId": "2",
+      "username": "alex",
+      "previewUrl": "https://picsum.photos/id/145/100/100",
+      "stories": [
+        {
+          "id": "story3",
+          "url": "https://picsum.photos/id/654/400/600"
+        }
+      ]
+    },
+    {
+      "userId": "3",
+      "username": "emma",
+      "previewUrl": "https://picsum.photos/id/367/100/100",
+      "stories": [
+        {
+          "id": "story4",
+          "url": "https://picsum.photos/id/891/400/600"
+        },
+        {
+          "id": "story5",
+          "url": "https://picsum.photos/id/234/400/600"
+        },
+        {
+          "id": "story6",
+          "url": "https://picsum.photos/id/567/400/600"
+        }
+      ]
+    },
+    {
+      "userId": "4",
+      "username": "john",
+      "previewUrl": "https://picsum.photos/id/478/100/100",
+      "stories": [
+        {
+          "id": "story7",
+          "url": "https://picsum.photos/id/890/400/600"
+        }
+      ]
+    },
+    {
+      "userId": "5",
+      "username": "sarah",
+      "previewUrl": "https://picsum.photos/id/567/100/100",
+      "stories": [
+        {
+          "id": "story8",
+          "url": "https://picsum.photos/id/123/400/600"
+        },
+        {
+          "id": "story9",
+          "url": "https://picsum.photos/id/456/400/600"
+        }
+      ]
+    },
+    {
+      "userId": "6",
+      "username": "smudha",
+      "previewUrl": "https://picsum.photos/id/678/100/100",
+      "stories": [
+        {
+          "id": "story10",
+          "url": "https://picsum.photos/id/789/400/600"
+        },
+        {
+          "id": "story11",
+          "url": "https://picsum.photos/id/901/400/600"
+        }
+      ]
+    },
+    {
+      "userId": "7",
+      "username": "railey",
+      "previewUrl": "https://picsum.photos/id/789/100/100",
+      "stories": [
+        {
+          "id": "story12",
+          "url": "https://picsum.photos/id/345/400/600"
+        },
+        {
+          "id": "story13",
+          "url": "https://picsum.photos/id/678/400/600"
+        }
+      ]
+    },
+    {
+      "userId": "8",
+      "username": "hay storm",
+      "previewUrl": "https://picsum.photos/id/890/100/100",
+      "stories": [
+        {
+          "id": "story14",
+          "url": "https://picsum.photos/id/432/400/600"
+        },
+        {
+          "id": "story15",
+          "url": "https://picsum.photos/id/765/400/600"
+        }
+      ]
+    },
+    {
+      "userId": "9",
+      "username": "michael",
+      "previewUrl": "https://picsum.photos/id/901/100/100",
+      "stories": [
+        {
+          "id": "story16",
+          "url": "https://picsum.photos/id/543/400/600"
+        },
+        {
+          "id": "story17",
+          "url": "https://picsum.photos/id/876/400/600"
+        },
+        {
+          "id": "story18",
+          "url": "https://picsum.photos/id/198/400/600"
+        }
+      ]
+    },
+    {
+      "userId": "10",
+      "username": "sophia",
+      "previewUrl": "https://picsum.photos/id/912/100/100",
+      "stories": [
+        {
+          "id": "story19",
+          "url": "https://picsum.photos/id/654/400/600"
+        },
+        {
+          "id": "story20",
+          "url": "https://picsum.photos/id/987/400/600"
+        }
+      ]
+    }
+  ]
+}
